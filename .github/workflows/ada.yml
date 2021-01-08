@@ -26,5 +26,8 @@ jobs:
     - name: List
       run: ls -lR
 
+    - name: GNAT make
+      run: gnatmake hello.adb
+
     - name: Say Hello
       run: ./hello
