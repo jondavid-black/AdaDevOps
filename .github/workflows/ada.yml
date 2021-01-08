@@ -23,5 +23,8 @@ jobs:
     - name: Build
       run: gprbuild -j0 -p
 
+    - name: List
+      run: ls -lR
+
     - name: Say Hello
       run: ./hello
