@@ -22,3 +22,6 @@ jobs:
 
     - name: Build
       run: gprbuild -j0 -p
+
+    - name: Say Hello
+      run: ./hello
